@@ -310,7 +310,18 @@ body {
         bottom: 20px;
     }
 }
+@media screen and (min-width: 1024px) {
 
+    .bg-shape1{
+        left: 40px;
+        bottom: 20px;
+    }
+    .bg-shape2 {
+        right: 40px;
+        bottom: 20px;
+    }
+
+}
 
 /* Cards css ends */
 
