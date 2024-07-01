@@ -1,0 +1,469 @@
+body {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #151515; 
+    color: #fff;
+
+    
+}
+
+/* Header Section CSS Starts */
+.banner {
+    background-image: url('../images/background-image.jpeg');
+    background-size: cover;
+    background-position: center;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.custom-header nav {
+    border-bottom: 1px solid#adb4b6;
+    padding: 1rem  2rem;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+
+}
+.navbar-scrolled {
+    background-color: #101010;
+    
+}
+
+
+.banner h1 {
+    color: #fff !important;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    font-weight:500;
+    display: flex;
+
+}
+.btn-demo {
+    background: linear-gradient(90deg, #8E2DE2, #4A00E0);
+    padding: 10px 10px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+
+}
+.btn-demo:hover {
+    background: linear-gradient(90deg, #4A00E0, #8E2DE2);
+    /* Reverse gradient on hover */
+    transform: translateY(-2px);
+    /* Lift button on hover */
+}
+
+
+/* Header Section CSS Ends */
+
+/* Nav tabs Section CSS Starts */
+.nav-container {
+    background-color: #4667d4;
+    position: sticky;
+    top: 70px;
+    z-index: 1000;
+}
+.nav-container ul{
+    padding: 3px;
+    font-size: 16px;
+
+}
+.nav-container ul a{
+    color: #fff;
+           
+}
+.nav{
+    --bs-nav-link-hover-color: #1c1e20;
+}
+
+/* Nav tabs Section CSS Ends */
+
+/* About US  Section CSS Starts */
+    
+.about-section {
+    background-color: #101010;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about-section h6 {
+    color: #2cabe1;
+    padding-bottom: 10px;
+}
+
+.about-section h3{
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.about-section p {
+    color: #939393;
+}
+/*.about-section .aboutus-pic {
+    width: 100%;
+}
+
+    
+
+/* About US  Section CSS Ends */
+
+/*Tabs Section Css starts */
+.tabs {
+    justify-content: center;
+    background-color: #151515;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.tabs h6 {
+    color: #2cabe1;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+.tabs h3{
+    text-align: center;
+
+}
+
+
+.course-icon {
+    width: 50px;
+    background-color: #fff;
+  }
+  .course-title {
+    font-weight: 400;
+  }
+  .tabs .btn{
+    background-color: #545859;
+    color: #fff;
+  }
+  .accordion-button {
+    background-color: #000;
+    color: #fff;
+  }
+  .accordion-button::after {
+    content: '\25BC'; /* Unicode for down arrow */
+    font-size: 1.2rem;
+    float: right;
+    transition: transform 0.5s;
+    
+  }
+  .accordion-button:focus{
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  .accordion-button:not(.collapsed){
+    background-color: #0000;
+    box-shadow:none;
+    color: #fff;
+  }
+  .btn1 {
+    margin: 0.5rem 0.5rem 0.5rem 0;
+  }
+  .content-section {
+    display: none;
+    color: #fff;
+    
+  }
+  .content-section.active {
+    display: block;
+  }
+
+  .accordion-item{
+    border:none;
+
+  }
+  .accordion-button:focus{
+    outline: 0;
+    box-shadow: none;
+  }
+  
+  .accordion-button:not(.collapsed){
+    background-color: #000;
+    box-shadow:none;
+    color: #fff;
+  }
+/*Tabs Section Css Ends */
+
+
+
+
+/* Counter Section CSS Starts */
+
+.counter-section {
+    background-color: #000;
+    padding: 20px 0;
+}
+.counter {    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.counter-box {
+    font-size: 80px;
+    background-color: #585858;
+    padding: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: inline-flex;
+}
+.counter h3 {
+    font-size: 24px;
+    margin: 0;
+
+}
+.counter p {
+    padding: 10px;
+    margin: 0;
+}
+
+
+/* Counter Section CSS Ends */
+
+/* Cards css starts */
+.cards-section {
+    background-color: #151515;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.cards-section .title-aboutus {
+    color: #2cabe1;
+
+}
+
+.cards-section .sub-heading {
+    color: #fff;
+    padding-bottom: 32px;
+    font-weight: 500;
+}
+
+.cards-section .card {
+    background-color: #191919;
+    width: 100%;
+    height: 200px;
+    padding: 20px 20px;
+    z-index: 1;
+}
+
+.cards-section .card-title {
+    padding-top: 20px;
+}
+.col img {
+    max-width: 70px;
+}
+
+.bg-image {
+    position: relative;
+    padding-bottom: 40px;
+        
+}
+
+.bg-shape1 {
+    position: absolute;
+    z-index: 0;
+    top: -80px;
+    left: 90px;
+    scale: 1.2;
+}
+
+.bg-shape2 {
+    position: absolute;
+    z-index: 0;
+    top: -80px;
+    right: 80px;
+    scale: 1.3;
+}
+   /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .cards-section {
+        padding-right: 10px;
+        padding-left: 10px;
+    
+    }
+    
+.cards-section .card {
+    background-color: #191919;
+    align-items: center;
+    padding: 20px 20px;
+    z-index: 1;
+}
+    .bg-shape1{
+        display: flex;
+        left: 1px;
+        bottom: 20px;
+    }
+    .bg-shape2 {
+        display: flex;
+        right: 2px;
+        bottom: 20px;
+    }
+}
+
+
+/* Cards css ends */
+
+
+/* Excel CSS Section Starts */
+.excel {
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.excel h6 {
+    color: #2cabe1;
+}
+.excel h2{
+    color: #fff;
+    font-weight: 600;
+
+}
+.excel h5 {
+    padding: 5px;
+ 
+}
+
+.excel p{
+    color:#8c8c8c;
+    padding: 5px;
+}
+.excel img{
+    border-radius: 5px;
+    width: 100%;
+}
+.excel .icons {
+    background-color: #dcdcdc;
+    max-width: 70px;
+    padding: 8px;
+    
+}
+.icon{
+    display: flex;
+    align-items: flex-start;
+}
+/* Excel CSS Section Ends */
+
+/* Testmonials CSS Section Starts */
+.testimonial-hero {
+    width: 100%;
+    height: auto;
+    background-color: #101010;
+    color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.testimonial-hero h5{
+    color: #2cabe1;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    visibility: hidden;
+}
+
+
+
+.carousel-indicators {
+    justify-content: flex-end;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    padding-top: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+}
+
+.carousel-indicators [data-bs-target]::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4px;
+    height: 4px;
+    background-color: #2cabe1;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    border: 1px solid #2cabe1;
+}
+
+.visually-hidden {
+    visibility: hidden;
+}
+
+
+/* Testmonials CSS Section Ends */
+
+/* Footer Section CSS Starts */
+
+.custom-shape{
+    width: 100%;
+    overflow: hidden;
+ }
+ 
+ .custom-shape svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 50px;
+    color: #000;
+ }
+ .custom-shape .shape-fill {
+    fill: #101010;
+}
+
+.footer{
+    position:relative;
+    background-color: #000;
+}
+
+.footer {
+    text-align: center;
+}
+.footer img {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+.footer .social-media a{
+    color: #a2a2a2;
+    padding:  5px;
+    font-size: 25px;
+    
+}
+.footer .social-media a i{
+    color: #a2a2a2;
+    padding: 20px;
+}
+.footer p{
+    color: #a2a2a2;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+/* Footer Section CSS Ends */
+
